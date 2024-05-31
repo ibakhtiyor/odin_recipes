@@ -1,12 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 8px;
+}
+
+.inline-images {
+        display: flex;
+        justify-content: center;
+}
+
+.imgbox {
+    margin: 5px;
+  }
+
 h1 {
     text-align: center;
     color: white;
     background-color: black;
 }
 
-.recipe {
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+h3 {
+    text-align: center;
 }
 
 .image {
@@ -18,10 +34,11 @@ h1 {
 }
 
 h2 {
-    text-align: center;
-}
+    text-align: center;}
 
 p, .lists {
+    padding-left: 24px;
+    padding-right: 24px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
